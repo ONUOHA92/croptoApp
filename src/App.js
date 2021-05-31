@@ -57,7 +57,7 @@ function App() {
       <div className="mt-5 container justify-content-center">
         <div className="row">
         <div className="col-md-4 bg-success p-2 rounded">
-          <img src={img} width="150" />
+          <img src={img} width="150"  alt=''/>
           <br />
           <h1 className="text-white">{name}</h1>
           <h2>{symbol}</h2>
